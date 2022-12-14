@@ -1,4 +1,8 @@
 #include "day1.h"
+using std::ifstream;
+using std::vector;
+using std::string;
+using std::cout;
 
 int do_day_one() {
 	ifstream file;

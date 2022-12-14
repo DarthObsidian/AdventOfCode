@@ -1,5 +1,12 @@
 #include "day5.h"
 
+using std::ifstream;
+using std::vector;
+using std::string;
+using std::regex;
+using std::regex_token_iterator;
+using std::cout;
+
 int do_day_five() {
 	ifstream file;
 	file.open("./dayFiveInput.txt");

@@ -1,5 +1,9 @@
 #include "day3.h"
 
+using std::ifstream;
+using std::string;
+using std::cout;
+
 const int upper_offset = 38;
 const int lower_offset = 96;
 

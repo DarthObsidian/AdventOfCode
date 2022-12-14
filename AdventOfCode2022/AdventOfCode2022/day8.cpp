@@ -1,5 +1,10 @@
 #include "day8.h"
 
+using std::vector;
+using std::string;
+using std::ifstream;
+using std::cout;
+
 vector<string> map;
 int highest_view_score = 0;
 

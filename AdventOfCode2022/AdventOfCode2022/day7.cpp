@@ -1,5 +1,12 @@
 #include "day7.h"
 
+using std::ifstream;
+using std::cout;
+using std::string;
+using std::vector;
+using std::regex;
+using std::smatch;
+
 int needed_space = 0;
 int smallest = 0;
 int total_taken = 0;

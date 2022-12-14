@@ -1,5 +1,9 @@
 #include "day6.h"
 
+using std::ifstream;
+using std::string;
+using std::vector;
+using std::cout;
 
 int do_day_six() {
 	ifstream file;

@@ -7,6 +7,8 @@
 #include "day7.h"
 #include "day8.h"
 
+using std::cout;
+
 int main() {
 	cout << "Result from day 1: ";
 	do_day_one();

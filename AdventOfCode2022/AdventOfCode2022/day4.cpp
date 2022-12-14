@@ -1,5 +1,12 @@
 #include "day4.h"
 
+using std::ifstream;
+using std::string;
+using std::regex;
+using std::regex_token_iterator;
+using std::vector;
+using std::cout;
+
 int do_day_four() {
 	ifstream file;
 	string line;

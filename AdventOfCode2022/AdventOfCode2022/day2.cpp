@@ -1,5 +1,9 @@
 #include "day2.h"
 
+using std::ifstream;
+using std::string;
+using std::cout;
+
 int do_day_two() {
 	ifstream file;
 	file.open("./dayTwoInput.txt");
